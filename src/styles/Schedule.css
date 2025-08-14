@@ -1,0 +1,131 @@
+@media (max-height: 600px) {
+  .modal-content {
+    max-height: 95vh;
+  }
+}
+ .modal {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw; height: 100vh;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  overflow-y: auto;
+}
+
+.modal-content {
+  background: #fff;
+  border-radius: 16px;
+  width: 90%;
+  max-width: 600px;
+  max-height: 90vh;
+  overflow-y: auto;
+  padding: 32px;
+  position: relative;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  scrollbar-width: thin;
+}
+
+.close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #666;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+#scheduleForm {
+  display: flex;
+  flex-direction: column;
+}
+
+#scheduleForm label {
+  margin-top: 16px;
+  margin-bottom: 4px;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+#scheduleForm input[type="file"] {
+  padding: 8px 0;
+}
+
+#scheduleForm input,
+#scheduleForm button {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+#scheduleForm input:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.2);
+}
+
+#scheduleForm button[type="submit"] {
+  background: #2563eb;
+  color: white;
+  font-weight: bold;
+  margin-top: 24px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+#scheduleForm button[type="submit"]:hover {
+  background: #1e40af;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.pagination-nxtbtn {
+  padding: 8px 14px;
+  border: 1px solid #ddd;
+  background: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #333;
+  transition: all 0.2s ease;
+}
+.pagination-prvbtn {
+  padding: 8px 14px;
+  border: 1px solid #ddd;
+  background: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #333;
+  transition: all 0.2s ease;
+}
+.pagination-btn:hover:not(:disabled) {
+  background: #f0f0ff;
+}
+
+.pagination-btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.pagination-btn.active {
+  background-color: #f3e8ff;
+  color: #6b21a8;
+  font-weight: bold;
+  border: 1px solid #e9d5ff;
+}
+.react-icons {
+  vertical-align: middle;
+}

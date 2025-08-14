@@ -1,0 +1,70 @@
+/* TeamTable.css */
+.team-table-card {
+  background: #f2f2f2;
+  border-radius: 10px;
+  width: 84%;
+  min-width: 40%;
+  box-shadow: 0 1px 4px #e5e7eb;
+  margin: 20px 50px 20px 230px;
+  padding: 15px;
+}
+.team-table-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.team-table-title {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+.team-table-chip {
+  color: #2563eb;
+  padding: 2px 10px;
+  font-size: 0.9rem;
+}
+.team-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.97rem;
+}
+.team-table th, .team-table td {
+  border-bottom: 1px solid #e5e7eb;
+  padding: 10px 8px;
+  text-align: left;
+  font-size: 13px;
+}
+.table-avatar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.avatar {
+  background: #1bc261ff;
+  color: #fff;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.username {
+  font-size: 0.8rem;
+  color: #64748b;
+}
+.chip {
+  display: inline-block;
+  background: #e0e7ff;
+  color: #2563eb;
+  border-radius: 8px;
+  padding: 2px 8px;
+  margin-right: 2px;
+  font-size: 0.85rem;
+}
+.chip.primary {
+  background: #2563eb;
+  color: #fff;
+}

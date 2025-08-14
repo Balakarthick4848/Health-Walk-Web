@@ -1,0 +1,21 @@
+/* Chart.css */
+.chart-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 1px 4px #e5e7eb;
+  margin: 0 220px 24px 220px;
+  padding: 24px;
+}
+.chart-title {
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+.chart-placeholder {
+  background: #f1f5f9;
+  border-radius: 8px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #64748b;
+}

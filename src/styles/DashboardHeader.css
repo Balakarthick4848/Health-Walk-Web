@@ -1,0 +1,38 @@
+/* DashboardHeader.css */
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #193E9F;
+  color: #fff;
+  padding: 18px 32px;
+  margin-left: 220px;
+}
+.dashboard-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.dashboard-user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.avatar {
+  background: #1bc261ff;
+  color: #fff;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.user-name {
+  font-weight: bold;
+}
+.user-role {
+  font-size: 0.8rem;
+  color: #cbd5e1;
+}
